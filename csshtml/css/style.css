@@ -1,0 +1,466 @@
+ /* /*
+*{
+    border:2px solid yellow;
+}
+*/
+
+/*
+body{
+    font-size: 22px;
+    /*  is used to give a border to the body border:5px solid yellow; } */
+
+/*
+.brown { /* this is used class selector that is used to give color to the other headings even after being typed before declaring purple color and is not getting overwritten that is because it is mentioned with specific command. that is the reason why the first para will have color purple and the rest would have color darkolive */
+   /* color:brown;
+}
+
+/*
+p{ /* this is a element selector that is being used to set the color of para 1 as purple */
+   /* color:black;
+}
+
+/*
+p{
+    color:black!important;(this !important overrides everything and set the color of all the paras of page to black. it is not recommended to use. )
+}
+*/
+/*
+h2,h1{
+    color:aqua;
+}
+.highlight{ /* .higlight is used for span i.e it highlights a word that is written inside span in index file */
+/*
+    text-transform: uppercase;
+    background-color:darksalmon;
+}
+
+h3{
+    color:blue;
+}
+*/
+
+/*
+*{ /* this is a universal selector that selects the entire text(content) on the page and makes the required changes(use dto reset the entire page ) */
+ /*   font-family: monospace;
+}
+*/
+
+/*body{
+    font-size: 22px;
+    font-family:Arial,Helvetica,sans-serif;
+    line-height: 1.7;
+    background:#ffefd5;
+    /*color:darkblue; } */
+   
+
+
+/*
+p{
+    color:rgba(0, 0, 0, 0.6); (here the last a is used for setting the transarency of color or darkness of color if both the heading and para has got the same color)
+}
+*/
+/*
+p{
+    color:#333;
+}
+*/
+
+/* css units: used to define the text size of the webpage
+*/
+
+/* 
+header{
+    width:65%; (we use the given percentage of width of page)
+} */
+
+/* body{ */
+    /* width: 100vw;
+    min-height: 100vh; } */
+   
+    
+
+/*
+*{
+    margin:1.3;
+    padding:5px;
+    box-sizing: border-box;
+}*/
+
+/*
+h1{
+    border:2px dashed red;
+    width: 100%;
+    /*width:500px;*/
+   /* font-size: 3rem;
+    padding: 0.5em;
+    color: black; } 
+    */
+
+
+
+/* .container{
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    padding:1.5rem;
+    margin:1.5em;
+    outline: 4px solid purple;
+    outline-offset:5px; */
+    /*(used to give color to the outline).
+    ( outline-offset pushes the otline 10px
+    away from the margin and if taken -ve it
+    it goes inside the margin border)*/
+
+
+   /* border:10px double red;
+   margin:1.5em  1.5em 2em 2em ;
+   padding:1.5em 2em 2em 1.5em;
+    (shorthand for top,bottom,right,left for both margina nd padding)
+   /* margin-top:1.5em;
+    margin-left=2em;
+    margin-right:2em;
+    (margin:1.5rem;) } */
+/*used to apply the changes to all the content at atime*/
+
+
+/* .circle{
+    margin:3rem auto; */
+    /* auto brings the shape to the center */
+    /* background-color: gold;
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    border-radius:50px;
+    outline:2px solid red; */
+    /* outline-offset:0.25rem;
+
+
+}
+h2,h3{
+    width:75%;
+    font-size:2.5rem;
+    padding: 0.25;
+    color:coral;
+}
+
+main{
+    
+    font-size:2rem;
+       
+} */
+
+/* p{
+    font-size: 1.25rem; 
+    width: 62ch;
+    height: 100px;
+    font-size: 22px;
+} */ 
+     /*40ch means 40 char per line and (1 rem=16 px) */
+
+   /* .uhh{
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        clip-path: circle();
+        transition:  all 2s ease;
+        margin:3em auto;
+     } */
+/*
+     .uhh:hover{
+        height: 00px;
+        width: 0px;
+    }  */
+
+
+
+    /*
+     typograohy is way that text is arranged and presented 
+    */
+/* 
+    body{
+        padding:10%;
+        font-size: 2rem;
+        font-family:sans-serif;
+        
+    }
+    ol{
+        list-style-type:lower-alpha;
+        list-style-type:decimal-leading-zero;
+        list-style-type:upper-roman;
+    }
+
+    ul{
+        list-style-type: square;
+        text-align: center;
+        list-style-position:outside;
+        color: red;
+        line-height:1.6;
+    }
+
+    ul li:nth-child(2){
+        color:brown;
+    }
+
+    ::marker{
+        color:black;
+        font-family:fantasy;
+        font-size: 1em;
+        content:"only 5$ >>"
+    }
+
+    ul li::marker{
+        color:black;
+        font-family:fantasy;
+        font-size: 1em;
+        content:"only 5$ >>"
+    }
+
+    ol li::marker{
+        color:black;
+        font-family:fantasy;
+        font-size: 1em;
+        content:"only 5$ >> ";
+    } */
+/* 
+    a{
+        text-decoration:none;
+        cursor:pointer;
+        color:blue;
+    }
+
+    a:visited{
+        color:purple;
+    }
+
+    a:hover, a:focus{
+        color:dodgerblue;
+        opacity:0.7;
+        /* background:gold; gives gold background colr to the link     }*/
+
+
+    /* a:active{
+        color:red;
+    } */
+ 
+    /* input,button{
+        font:inherit;
+    } */
+
+    /* p{
+        text-decoration: underline;
+        text-decoration: overline;
+        text-decoration: line-through;
+        text-decoration: none; */
+
+
+        /* text-transform:capitalize; */
+        /* capitalise first letter of very word */
+        /* text-transform:lowercase; */
+        /* lowercases evry word of the paragraph */
+        /* text-transform:uppercase; */
+
+        /* text-align:left;
+        text-align:justify;
+        text-align:right;
+        text-indent:7em;
+    } */
+        /* indent first line */
+
+/* p{
+    line-height: 1.5;
+    letter-spacing:0.1rem;
+    word-spacing:0.1rem;
+    font-weight:normal;
+    font-weight:500;
+    font-style:Artifact Element book;
+}     */
+    
+/* chp 10 display */
+
+
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+/* body{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif
+} */
+
+/* p{
+    background-color: lightgrey;
+}
+
+.opposite{
+    display:inline-block;
+    background-color: hwb(0 20% 79% / 0.88);
+    color:whitesmoke;
+    margin-top:100px;
+    height:200px;
+    padding:4rem;
+} */
+
+/* ul{
+    list-style-type: none;
+    padding:0.5rem;
+    text-align:right;
+    background-color:rgb(146, 143, 143);
+    margin:0;
+}
+
+li{
+    display:inline-block;
+    margin-inline:0.5rem;
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover,li a:focus{
+    text-decoration:underline;
+} */
+
+
+
+/* chapter 11- floats: */
+
+/* body{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: black;
+    color: beige;
+    padding: 1rem;
+}
+
+.left{
+    float: left;
+    margin-right:1rem;
+
+}
+
+.right{
+    float:right;
+    margin-left:1rem;
+}
+
+.clear{
+    clear:both;
+}
+
+section{
+    background-color: bisque;
+    border:1px solid grey;
+    padding:1rem;
+    display: flow-root;
+    overflow:auto;
+} */
+
+/* CHAPTER 12- COLUMNS */
+
+.columns{
+    /* column-count:4;  (the first 4 paras turns into columns) */
+    /* column-width: 250px; */
+    columns:4 250px;  /*short hand for col-count and column-width*/
+    column-rule:3px solid black; /* creates division or rules between columns*/
+    column-gap: 3rem; /* gap between columns*/
+    
+}
+
+.column p{
+    margin-top: 0;
+
+}
+.column h2{   /* for editing the heading*/
+    margin-top:0;
+    background-color: red;
+    color:black;
+    padding:2rem;
+    break-inside:avoid; /*the heading remains at the top of second column even after resizing*/
+}
+
+.quote{
+    font-size:3rem;
+    text-align: center;
+    color:black;
+    column-span:all;
+}
+
+.nowrap{
+    white-space:nowrap;
+}
+
+/* chap 13- position */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;  
+}
+
+body{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size:1.5rem;
+   min-height: 200vh; 
+}
+
+.outer-container{
+    border:3px dashed black;
+    width:75vw;
+    height: 85vw;
+    margin: 40px auto;
+    position:relative;
+}
+
+.inner-container{
+    border:2px solid blue;
+    width:40vw;
+    height: 50vw;
+    margin:200px auto;
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    color:white;
+    padding:1rem;
+
+}
+
+.absolute{
+    background-color: blue;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.relative{
+    background-color: red;
+    position:relative;
+    top:100px;
+    left:100px;
+}
+
+.fixed{
+    background-color: aquamarine;
+    position:relative;
+    top: 100px;
+}
+
+.sticky{
+    background-color: black;
+    position:sticky;
+    top:0;
+    top:0;
+
+}
+
+
+

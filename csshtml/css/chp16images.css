@@ -1,0 +1,132 @@
+/* begin reset */
+*{
+      margin:0;
+      padding:0;
+}
+
+img{
+      display:block;
+}
+/* the above command is given to take off the space that is given below the image after setting the borders  and the text comes under the image*/
+
+/* end reset */
+
+
+/* utility classes */
+
+.nowrap{
+      white-space:nowrap; /* this will not break the statement hello im kunal when we resize the image in inspect*/
+}
+
+.offscreen{
+      position:absolute;
+      left: -10000px;
+}
+
+
+
+body{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+      min-height:100vh;
+
+      background-color:aliceblue;
+      background-image: linear-gradient(aliceblue,white); 
+      /* linear-gradient is used to make the background of multiple colors */
+
+      background-image: linear-gradient(to left,rgb(71, 119, 161),white);
+      /* to left,right,to bottom,to top are the sides where the color u want to appear first  */
+      background-image: url("../css/image/bubbles.jpeg"), linear-gradient(to left,rgb(71, 119, 161),white);
+      background-repeat: repeat-y, no-repeat; 
+      /* repeat y puts the iamge only in the y axis and leaves the rest as it is and no repeat is done so that they are not on full screen */
+
+       background-position: right center;
+
+      background-size: 20%,auto;} 
+
+
+.container{
+      background-color: rgb(251,218, 156);
+      background-image: url('../css/image/total-black-fo8bu4xz44tqguzu.jpg');
+      background-repeat:no-repeat;
+      background-position:center;
+      /* using this the image moves around a little bit */
+      
+
+      background-color:hsla(60, 23%, 35%, 0.35);
+      /* here the color gets applied to thew hole block not just the text ans in html we reated div  and ended it after all the sections classes */
+}
+
+.hero{
+      border-bottom:2px solid block;
+      padding:20px;
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 30px;
+
+      background-color: rgb(251,218, 156);
+      background-image: url('../css/image/total-black-fo8bu4xz44tqguzu.jpg');
+      background-repeat:repeat;
+      /* background-repeat is used to give the total black image as the background entirely for the whole block. */
+      background-size:cover;
+      /* it makes the background cover the block area but does not go over the text making it visible */
+}
+
+.h1{
+  font-size:400%; 
+  color:azure;
+  text-shadow: 2px 2px 5px red;
+  /*( 2px for x,y axis 5px for the amt of blur and the color of blur to red ) */
+  /* background-color:hsla(60, 23%, 35%, 0.137);
+  /* makes the background of text light yellow  */
+  /* padding:0.25rem; 
+  border-radius: 10px; */
+}
+.profile-pic-figure{
+width: 45%;
+      /* takes 35% of the whole page  */
+}
+
+.profile-pic-figure img{
+      width:100%;
+      height:auto;
+      min-width:25px;
+      border:5px double red;
+      /* takes 100% of the   .profile-pic-figure class */
+      border-radius: 50%;
+      /*  border-radius: 50%; makes the image circular */
+}
+.example{
+      margin-top:1rem;
+      padding-left:20px;
+      border: 1px solid red;
+
+}
+
+.example img{
+      width:50%;
+      height:auto;
+}
+
+
+/* for the section where class=clip and name=kunal */
+.clip{
+      font-weight: 800;
+      font-size: 18rem;
+      text-align: center;
+      background-image: url("../css/image/WIN_20230511_18_00_14_Pro.jpg");
+      Background-size: 100%; 
+      /*background-size is used to make the iamage 100%  */
+
+      -webkit-background-clip: text;
+      background-clip:text; 
+      color: transparent;
+      /* 
+      -webkit-background-clip: text;
+      background-clip:text; 
+      color: transparent
+      are used to make backround disappear and only make the text appear and color transparent makes the text display background in it 
+      */
+
+}
